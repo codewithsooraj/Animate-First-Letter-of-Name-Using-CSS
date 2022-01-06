@@ -1,0 +1,103 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: skyblue;
+}
+
+.pointer{
+    margin-top: -660px;
+    width:50px;
+    height:50px;
+    position: relative;
+    border-radius: 8px;
+    top:80px;
+    left:800px;
+    animation: sooraj 12s linear 2s alternate;
+}
+.line1{
+    background-color: slategray;
+    opacity:0.5;
+    width: 305px;
+    height: 50px;
+    border-radius: 8px;
+    position: relative;
+    top:80px;
+    left:545px;
+}
+.line2{
+    background-color: slategray;
+    opacity:0.5;
+    width: 50px;
+    height: 255px;
+    border-radius: 8px;
+    position: relative;
+    top:30px;
+    left:545px;
+
+}
+.line3{
+    background-color: slategray;
+    opacity:0.5;
+    width: 305px;
+    height: 50px;
+    border-radius: 8px;
+    position: relative;
+    top:-20px;
+    left:545px;
+
+}
+.line4{
+    background-color: slategray;
+    opacity:0.5;
+    width: 50px;
+    height: 255px;
+    border-radius: 8px;
+    position: relative;
+    top:-70px;
+    left:800px;
+
+}
+.line5{
+    background-color: slategray;
+    opacity:0.5;
+    width: 305px;
+    height: 50px;
+    border-radius: 8px;
+    position: relative;
+    top:-120px;
+    left:545px;
+
+}
+@keyframes sooraj{
+    0%{
+        top:80px;
+        left:800px;
+        background-color: coral;   
+    }
+    20%{
+        top:80px;
+        left:545px;
+        background-color: coral;
+    }
+    39%{
+        top:285px;
+        left:545px;
+        background-color: coral;
+    }
+    58%{
+        top:285px;
+        left:800px;background-color: coral;
+    }
+    79%{
+        top:490px;
+        left:800px;
+        background-color: coral;
+    }
+    100%{
+        top:490px;
+        left:543px;
+        background-color: coral;
+    }
+}
